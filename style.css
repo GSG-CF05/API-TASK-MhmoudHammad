@@ -6,24 +6,26 @@
 
 body {
   font-family: Tahoma, Arial, Helvetica, sans-serif;
-  background-color: #b2e4df;
+  background: url('./images/download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-section {
-  width: 90vw;
-  margin:  auto;
+  width: 80vw;
+  margin: 0 auto;
 }
 h1 {
   background-color: #666666;
   font-size: 1.3rem;
-  width: 50%;
-  padding: 8px;
   margin: 8px 0;
   color: #fff;
   border-radius: 8px;
+  padding: 1rem 0.5rem; 
 }
 .container {
-  height: 60vh;
+  height: 75vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +47,46 @@ h1 {
  color: #fff;
 }
 
+.description {
+  color: #fff;
+}
 
+.title {
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  /* background-color: black; */
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+  padding: 10px 0;
+}
+.title h1 {
+  align-self: flex-end;
+}
 
+.circular-progress {
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  background-color: black;
+  border-radius: 50%;
+  
+}
+.value-container {
+  position: relative;
+  font-family: "sans-serif";
+  font-size: 1rem;
+  color: gold;
+}
 

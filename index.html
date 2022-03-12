@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
       integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <main class="main-section">
-    <h1>Top-rated movies</h1>
-    <div class="container">
-      <div class="left">
-        <i class="fa-solid fa-chevron-left"></i>
+    <link rel="stylesheet" href="style.css" />
+    <title>API-TASK</title>
+  </head>
+  <body>
+    <main class="main-section">
+      <h1>Top-rated movies</h1>
+      <div class="container">
+        <div class="left">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+
+        <div class="right">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
       </div>
-  
-      <div class="right">
-        <i class="fa-solid fa-chevron-right"></i>
+      <div class="description">
+        <div class="title">
+          <h2></h2>
+          <div class="circular-progress">
+            <div class="value-container">0%</div>
+          </div>
+        </div>
+        <p></p>
       </div>
-  
-    </div>
-    <div class="description">
-      <h2></h2>
-      <p></p>
-    </div>
-  </main>
- 
-  <script src="app.js"></script>
-</body>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>
